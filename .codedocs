@@ -8,4 +8,4 @@
 # paths will be considered relative to the root of the repository, not the
 # location of the DOXYFILE.
 
-DOXYFILE = Discographie/Doxyfile
+DOXYFILE = ./Doxyfile
