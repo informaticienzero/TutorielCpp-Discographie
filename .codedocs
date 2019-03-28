@@ -9,3 +9,4 @@
 # location of the DOXYFILE.
 
 DOXYFILE = ./Doxyfile
+FILE_PATTERNS = *.h *.cpp *.md
