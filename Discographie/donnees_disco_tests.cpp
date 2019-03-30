@@ -1,4 +1,4 @@
-#include "donnees_disco_tests.hpp"
+ï»¿#include "donnees_disco_tests.hpp"
 
 #include <sstream>
 #include <cassert>
@@ -11,9 +11,9 @@ void test_creation_morceau_entree_complete()
 
     entree >> morceau;
 
-    assert(morceau.nom == "Frica" && u8"Le nom du morceau doit être Frica.");
-    assert(morceau.album.nom == "Frica" && u8"Le nom de l'album doit être Frica.");
-    assert(morceau.compositeur.nom == "Carla's Dreams" && u8"Le nom du compositeur doit être Carla's Dreams.");
+    assert(morceau.nom == "Frica" && u8"Le nom du morceau doit Ãªtre Frica.");
+    assert(morceau.album.nom == "Frica" && u8"Le nom de l'album doit Ãªtre Frica.");
+    assert(morceau.compositeur.nom == "Carla's Dreams" && u8"Le nom du compositeur doit Ãªtre Carla's Dreams.");
 }
 
 void test_creation_morceau_entree_espaces_partout()
@@ -23,9 +23,9 @@ void test_creation_morceau_entree_espaces_partout()
 
     entree >> morceau;
 
-    assert(morceau.nom == "Levels" && u8"Le nom du morceau doit être Levels.");
-    assert(morceau.album.nom == "Levels" && u8"Le nom de l'album doit être Levels.");
-    assert(morceau.compositeur.nom == "Avicii" && u8"Le nom du compositeur doit être Avicii.");
+    assert(morceau.nom == "Levels" && u8"Le nom du morceau doit Ãªtre Levels.");
+    assert(morceau.album.nom == "Levels" && u8"Le nom de l'album doit Ãªtre Levels.");
+    assert(morceau.compositeur.nom == "Avicii" && u8"Le nom du compositeur doit Ãªtre Avicii.");
 }
 
 void test_creation_morceau_entree_chanson_artiste()
@@ -35,9 +35,9 @@ void test_creation_morceau_entree_chanson_artiste()
 
     entree >> morceau;
 
-    assert(morceau.nom == "Subeme la radio" && u8"Le nom du morceau doit être Subeme la radio.");
-    assert(morceau.album.nom == "Album inconnu" && u8"Le nom de l'album doit être Album inconnu.");
-    assert(morceau.compositeur.nom == "Enrique Iglesias" && u8"Le nom du compositeur doit être Enrique Iglesias.");
+    assert(morceau.nom == "Subeme la radio" && u8"Le nom du morceau doit Ãªtre Subeme la radio.");
+    assert(morceau.album.nom == "Album inconnu" && u8"Le nom de l'album doit Ãªtre Album inconnu.");
+    assert(morceau.compositeur.nom == "Enrique Iglesias" && u8"Le nom du compositeur doit Ãªtre Enrique Iglesias.");
 }
 
 void test_creation_morceau_entree_chanson_uniquement()
@@ -47,9 +47,9 @@ void test_creation_morceau_entree_chanson_uniquement()
 
     entree >> morceau;
 
-    assert(morceau.nom == "Duel of the fates" && u8"Le nom du morceau doit être Duel of the Fates.");
-    assert(morceau.album.nom == "Album inconnu" && u8"Le nom de l'album doit être Album inconnu.");
-    assert(morceau.compositeur.nom == "Artiste inconnu" && u8"Le nom du compositeur doit être Artiste inconnu.");
+    assert(morceau.nom == "Duel of the fates" && u8"Le nom du morceau doit Ãªtre Duel of the Fates.");
+    assert(morceau.album.nom == "Album inconnu" && u8"Le nom de l'album doit Ãªtre Album inconnu.");
+    assert(morceau.compositeur.nom == "Artiste inconnu" && u8"Le nom du compositeur doit Ãªtre Artiste inconnu.");
 }
 
 void test_creation_morceau_entree_vide()
@@ -59,7 +59,7 @@ void test_creation_morceau_entree_vide()
 
     entree >> morceau;
 
-    assert(morceau.nom == "Morceau inconnu" && u8"Le nom du morceau doit être Morceau inconnu.");
-    assert(morceau.album.nom == "Album inconnu" && u8"Le nom de l'album doit être Album inconnu.");
-    assert(morceau.compositeur.nom == "Artiste inconnu" && u8"Le nom du compositeur doit être Artiste inconnu.");
+    assert(morceau.nom == "Morceau inconnu" && u8"Le nom du morceau doit Ãªtre Morceau inconnu.");
+    assert(morceau.album.nom == "Album inconnu" && u8"Le nom de l'album doit Ãªtre Album inconnu.");
+    assert(morceau.compositeur.nom == "Artiste inconnu" && u8"Le nom du compositeur doit Ãªtre Artiste inconnu.");
 }

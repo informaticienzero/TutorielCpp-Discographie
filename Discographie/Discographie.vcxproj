@@ -177,7 +177,6 @@
     <ClInclude Include="donnees_disco.hpp" />
     <ClInclude Include="donnees_disco_tests.hpp" />
     <ClInclude Include="systeme_commandes.hpp" />
-    <ClInclude Include="test.h" />
     <ClInclude Include="utils.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

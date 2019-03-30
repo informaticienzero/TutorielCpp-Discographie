@@ -1,4 +1,4 @@
-#include "discographie.hpp"
+ï»¿#include "discographie.hpp"
 
 #include <fstream>
 #include <algorithm>
@@ -43,7 +43,7 @@ void tri_artiste(Discographie& discographie)
     });
 }
 
-// Affichage de la discographie par morceau, dans l'ordre alphabétique.
+// Affichage de la discographie par morceau, dans l'ordre alphabÃ©tique.
 void affichage_morceau(Discographie const & discographie)
 {
     for (Morceau const & morceau : discographie)
@@ -52,7 +52,7 @@ void affichage_morceau(Discographie const & discographie)
     }
 }
 
-// Affichage de la discographie par album, dans l'ordre alphabétique.
+// Affichage de la discographie par album, dans l'ordre alphabÃ©tique.
 void affichage_album(Discographie const & discographie)
 {
     Album album_precedent {};
@@ -68,7 +68,7 @@ void affichage_album(Discographie const & discographie)
     }
 }
 
-// Affichage de la discographie par artiste, dans l'ordre alphabétique.
+// Affichage de la discographie par artiste, dans l'ordre alphabÃ©tique.
 void affichage_artiste(Discographie const & discographie)
 {
     Artiste artiste_precedent {};
@@ -112,7 +112,7 @@ void affichage(Discographie& discographie, Affichage type_affichage)
     }
     else
     {
-        // Par exemple si on met à jour l'énumération mais qu'on oublie d'ajouter la fonction correspondante.
+        // Par exemple si on met Ã  jour l'Ã©numÃ©ration mais qu'on oublie d'ajouter la fonction correspondante.
         throw std::runtime_error("Commande d'affichage inconnue.");
     }
 }
@@ -122,7 +122,7 @@ void enregistrement(Discographie const & discographie, std::string const & nom_f
     std::ofstream fichier { nom_fichier };
     if (!fichier)
     {
-        throw std::runtime_error("Impossible d'ouvrir le fichier en écriture.");
+        throw std::runtime_error("Impossible d'ouvrir le fichier en Ã©criture.");
     }
 
     for (Morceau const & morceau : discographie)

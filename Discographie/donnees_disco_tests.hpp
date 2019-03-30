@@ -1,4 +1,4 @@
-#ifndef DONNEES_DISCO_TESTS_HPP_INCLUDED
+﻿#ifndef DONNEES_DISCO_TESTS_HPP_INCLUDED
 #define DONNEES_DISCO_TESTS_HPP_INCLUDED
 
 void test_creation_morceau_entree_complete();
