@@ -1,4 +1,9 @@
-﻿#ifndef DONNEES_DISCO_HPP_INCLUDED
+﻿/**
+* @file donnees_disco.hpp
+* Le fichier en question.
+*/
+
+#ifndef DONNEES_DISCO_HPP_INCLUDED
 #define DONNEES_DISCO_HPP_INCLUDED
 
 #include <string>
