@@ -275,4 +275,6 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 /docs/*
-html/*
+html
+documentation/
+documentation/*
